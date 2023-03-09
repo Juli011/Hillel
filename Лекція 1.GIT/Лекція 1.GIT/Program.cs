@@ -15,3 +15,18 @@ while (s>0)
     s--;
 }
 Console.WriteLine(result2);
+
+//variant 3
+int sum(int a)
+{
+    if (a==0)
+    {
+        return 0;
+    }
+    else
+    {
+        return a+=sum(a-1);
+    }
+}
+
+Console.WriteLine(sum(100));
