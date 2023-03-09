@@ -1,2 +1,17 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿//variant 1
+int result = 0;
+for (int i = 1; i <= 100; i++)
+{
+    result += i;
+}
+Console.WriteLine(result);
+
+//variant 2
+int result2 = 0;
+int s = 100;
+while (s>0)
+{
+    result2 += s;
+    s--;
+}
+Console.WriteLine(result2);
